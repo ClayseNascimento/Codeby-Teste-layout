@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/favicon.ico?token=ARZXH7Z3VP5HAEIZ3JETPU27XWTWC">
+
+<title>teste-layout</title>
+
+<style>
+h1 {margin-left: 60px; font-family:"Concert One";}
+h3 {margin-left: 60px; font-family:"Concert One"}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.flex-container > div{
+ background-color: white;
+ text-align: left;
+ padding: 10px;
+ }
+
+.flex-container .btn{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.flex-container .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.flex-container .img{
+  opacity: 1.0;
+  text-align: left;
+  
+}
+.flex-container .img:hover {
+  opacity: 0.3;
+
+}
+.flex-container .center {
+  position: absolute;
+  top: 13%;
+  width: 100%;
+  text-align:center;
+  font-size: 25px;
+  font-family: "Concert One";
+  background-color: transparent;
+}
+
+.flex-container .topleft {
+  position: absolute;
+  top: 43%;
+  width: 100%;
+  text-align:left;
+  margin-left: 30px;
+  font-size: 30px;
+  font-family:"Concert One";
+  background-color: transparent;
+}
+
+.flex-container .topright {
+  position: absolute;
+  top: 43%;
+  width: 100%;
+  text-align:right;
+  margin-right: 55px;
+  font-size: 30px;
+  font-family:"Concert One";
+  background-color: transparent;
+}
+
+.flex-container .bottomleft {
+  position: absolute;
+  top: 61%;
+  width: 100%;
+  text-align:center;
+  margin-right: 30px;
+  font-size: 30px;
+  font-family:"Concert One";
+  background-color: transparent;
+}
+
+.flex-container .left {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  text-align:left;
+  margin-left: 30px;
+  font-size: 30px;
+  font-family:"Concert One";
+  background-color: transparent;
+}
+
+.flex-container .bottomright {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  text-align:right;
+  margin-right: 30px;
+  font-size: 30px;
+  font-family:"Concert One";
+  background-color: transparent;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div>
+            <img src="https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/imagem01.jpg?token=ARZXH74PSJGGB6UPNIA2PDC7XWTZ2" alt="Imagem de uma porta aberta" width="1370" height="600">
+            <h1>Categorias de serviços</h1>
+            <h3>Portas abertas para soluções</h3>
+        </div>
+        <div style="position: absolute; top: 5%; left: 39%; background-color: transparent;">
+            <img src="https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/Logomarca.png?token=ARZXH767XMLIODBQZHHPLWC7XWUIU" alt="logomarca">
+        </div>
+            <div class="center">
+            <p><strong>Sempre de portas abertas para<br>
+                o seu negócio.</strong> </p> 
+            </div>
+        <div class="img">
+            <img src="https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/imagem02.jpg?token=ARZXH75WO5YZP64MT2EA5JS7XWT34" alt="Imagem de desktop" width="430" height="300" style="position: relative; opacity: 70%;">
+        </div>
+        <div class="topleft">
+            <p><strong>Banco de dados</strong> </p> 
+            </div>
+        <div class="img">
+            <img src= "https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/imagem03.jpg?token=ARZXH76LGVM63IYKHMNODPC7XWT6K"alt="Imagem representando redes de computador" width="780" height="300" style="opacity: 70%;">
+        </div>
+        <div class="topright">
+            <p><strong>Administração de <br> redes</strong> </p> 
+            </div>
+        <div class="img">
+            <img src="https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/imagem04.jpg?token=ARZXH73MXNM4K5QQEPDYKEK7XWUA2" alt="Imagem representando arquitetura de software" width="1240" height="300" style="opacity: 70%;">
+        </div>
+        <div class="bottomleft">
+            <p><strong>Arquitetura de software</strong> </p> 
+            </div>
+        <div class="img">
+            <img src="https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/imagem05.png?token=ARZXH774PCLRGO3VBR66RFK7XWUCW" alt="Imagem representando Desenvolvimento de software" width="780" height="300" style="opacity: 70%;">
+        </div>
+        <div class="left">
+            <p><strong>Desenvolvimento de software</strong> </p> 
+            </div>
+        <div class="img">           
+            <img src="https://raw.githubusercontent.com/ClayseNascimento/Codeby-Teste-layout/main/img/imagem06.png?token=ARZXH77GE26C3WIO2KZJXOS7XWUEI" alt="Imagem representando Qualidade de software" width="430" height="300" style="opacity: 70%;">
+        </div>
+        <div class="bottomright">
+            <p><strong>Qualidade de software</strong> </p> 
+            </div>
+        <div>
+            <button class="btn">See Now</button>
+        </div>
+    </div>
+<footer style="text-align: center;">
+    Desenvolvido por Clayse Alves do Nascimento
+    <a href="https://www.linkedin.com/in/clayse-alves-47259373/" target="_blank">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
+</footer>
+
+</body>
+</html>
